@@ -1,0 +1,2 @@
+#!/bin/sh
+rclone sync assets woel-bevy:woel-bevy
