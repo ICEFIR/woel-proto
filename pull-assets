@@ -1,2 +1,3 @@
 #!/bin/sh
-rclone sync assets woel-bevy:woel-bevy
+echo -e "Syncing assets from b2 storage"
+rclone sync woel-bevy:woel-bevy assets
