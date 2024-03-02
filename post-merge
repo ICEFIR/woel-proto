@@ -27,5 +27,4 @@ zero=$(git hash-object --stdin </dev/null | tr '[0-9a-f]' '0')
 echo -e "Syncing assets from b2 storage"
 rclone sync woel-bevy:woel-bevy assets
 
-
 exit 0
